@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import TechnologySection from "./components/TechnologySection";
 
 const App = () => {
   return (
@@ -7,6 +8,9 @@ const App = () => {
       <Navbar />
       <main>
         <Hero />
+
+        <TechnologySection />
+        
       </main>
 
     </>
