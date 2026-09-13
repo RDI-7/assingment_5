@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TechnologySection from "./components/TechnologySection";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -10,9 +11,9 @@ const App = () => {
         <Hero />
 
         <TechnologySection />
-        
-      </main>
 
+      </main>
+      <Footer />
     </>
   );
 };
